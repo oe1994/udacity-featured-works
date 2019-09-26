@@ -1,10 +1,7 @@
-.body {
-    max-width: 800px;
+.container-class {
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-}
-hr {
-    height: 10px;
 }
 
 .logo1 {
@@ -15,12 +12,25 @@ hr {
     font-size: 50px;
     color: #7d97ad;
 }
-.featured-work {
+.featured-work-title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     color: #7d97ad;
 }
 
-.img-max-height {
-    max-height:180px;
+.featured-work {
+    text-align: center;
+}
+
+.full-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.github-url {
+    font-family: Tahoma,Arial,"Hiragino Sans GB",simsun,sans-serif;
+    font-size: 12px;
+    height: 100%;
+    line-height: 1.6; 
 }
